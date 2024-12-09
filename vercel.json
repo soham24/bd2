@@ -1,5 +1,5 @@
 {
   "version": 3,
-  "buids": [{ "src": "index.js", "use": "@vercel/mode" }],
+  "builds": [{ "src": "index.js", "use": "@vercel/mode" }],
   "rewrites": [{ "source": "/(.*)", "destination": "index.js" }]
 }
